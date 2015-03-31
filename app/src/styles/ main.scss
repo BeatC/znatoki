@@ -1,0 +1,358 @@
+body {
+	width: 100vw;
+	overflow-x: hidden;
+
+	h1 {
+		font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+		font-weight: 700;
+	}	
+}
+
+.greetings {
+	padding: 7% 0;
+	height: 100vh;
+	
+	background: #c397fc; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #c397fc 0%, #7db9e8 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#c397fc), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #c397fc 0%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  #c397fc 0%,#7db9e8 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #c397fc 0%,#7db9e8 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #c397fc 0%,#7db9e8 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c397fc', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+	h2.greetings__title {
+		font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+		font-weight: 300;
+		font-size: 3em;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	
+	hr {
+		width: 500px;
+		border: 0;
+	    height: 1px;
+	    background: #333;
+	}
+
+	h1 {
+		font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+		font-weight: 300;
+		font-size: 5em;
+		text-transform: uppercase;
+		text-align: center;
+	}
+
+	h2.greetings__time {
+		margin-top: 1.5em;
+		text-align: center;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 4em;
+	}
+
+	h3 {
+		margin: 0.25em 0;
+
+		text-align: center;
+		font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+		font-size: 2em;
+	}
+
+	a {
+		text-transform: uppercase;
+		font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+		font-weight: 700;
+		font-size: 1.2em;
+		padding: 0.6em 1em;
+		margin: 2em auto;
+
+	}
+}
+
+.menu {
+	background-color: rgba(20,20,20,0.85);
+	-webkit-box-shadow: 0px -1px 6px 0px rgba(33,33,33,1);
+	-moz-box-shadow: 0px -1px 6px 0px rgba(33,33,33,1);
+	box-shadow: 0px -1px 6px 0px rgba(33,33,33,1);
+
+	.navbar-header {
+		margin-left: 3em;
+	}
+
+	ul {
+		margin-left: 5em;
+		
+		a {
+		}
+
+		a:hover{
+			color: #333;
+			background-color: #ccc;
+			-webkit-transition: background-color 0.3s ease-in;
+			transition: background-color 0.3s ease-in;
+		}
+
+		a:active {
+			color: #333;
+		}
+
+	}
+
+	a {
+		color: #fff;
+		font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+		font-weight: 700;
+	}
+}
+
+.about {
+	min-height: 100vh;
+	padding: 5% 0;
+
+	.about__header {
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 1em;
+	}
+
+	.about__description {
+		font-family: 'Lato', sans-serif;
+		font-size: 1.2em;
+		line-height: 1.5em;
+		text-align: justify;
+		margin-top: 2em;
+	}
+
+	.about__image {
+		margin-top: 3.5em;
+	}
+}
+
+.rules {
+	min-height: 100vh;
+	padding: 5% 0;
+	width: 100%;
+	background: url('../img/rules-bg.jpg');
+	-webkit-box-shadow: 0px -1px 6px 0px rgba(51,51,51,1);
+	-moz-box-shadow: 0px -1px 6px 0px rgba(51,51,51,1);
+	box-shadow: 0px -1px 6px 0px rgba(51,51,51,1);
+	
+	.rules__header {
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 1em;                               
+	}
+
+	.rules__list {
+		font-family: 'Lato', sans-serif;
+
+		li {
+			margin: 2em auto;
+			list-style: none;
+		}
+
+		span, p {
+			font-size: 1.2em;
+			display: inline-block;
+		}
+
+		.rules__list__number {
+			font-weight: 700;
+			margin-right: 0.5em;
+		}
+
+		p {
+			line-height: 1.5em;
+		}
+	}
+}
+
+.test {
+	font-family: 'Lato', sans-serif;
+	padding: 5% 0;
+	min-height: 100vh;
+
+
+	.question__input {
+		margin-top: 1.5em;
+		
+		input[type="text"] {
+			height: 2.4em;
+			font-size: 1.2em;
+			color: #333;
+		}
+
+		button {
+			height: 2.85em;
+  			position: relative;
+  			bottom: 1px;
+		}
+	}
+
+	.test__header {
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.question {
+		font-weight: 400;
+	}
+
+	.test__description {
+		margin-top: 2.5em;
+		margin-bottom: 8em;
+	}
+
+	.test__progress {
+
+		.test__question__number {
+			font-size: 5em;
+			font-family: 'Lato', sans-serif;
+			font-weight: 100;
+			position: relative;
+  			left: 40px;
+  			bottom: 126px;
+  			color: #fff;
+		}
+	}
+
+	p {
+		span {
+			font-weight: 700;
+		}
+		
+		font-size: 1.2em;
+	}
+
+	svg {
+		width: 150px;
+		height: 150px;
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+.location {
+	font-family: 'Lato', sans-serif;
+	height: 100vh;
+	overflow: hidden;
+	background-color: #ccc;
+	
+	-webkit-box-shadow: 0px -1px 2px 0px rgba(33,33,33,1);
+	-moz-box-shadow: 0px -1px 2px 0px rgba(33,33,33,1);
+	box-shadow: 0px -1px 2px 0px rgba(33,33,33,1);
+
+	.location__map {
+		width: 100%;
+		height: 100vh;
+	}
+
+	.location iframe {
+		border: none;
+	}
+
+	.location__overlay {
+		position: relative;
+		bottom: 35em;
+		background-color: rgba(0, 0, 0, 0.75);
+		border-radius: 5px;
+		margin-top: 7%;
+		padding-bottom: 1em;
+		
+		th, td {
+			font-size: 1.2em;
+			padding: 1em;
+		}
+
+		h3 {
+			color: #fff;
+			text-align: center;
+			text-transform: uppercase;
+			font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+			font-weight: 700;
+		}
+
+		th {
+			text-transform: uppercase;
+			font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+			font-weight: 700;	
+		}
+
+		table {
+			color: #fff;
+			display: inline-block;
+		}
+	}
+}
+
+.signup {
+	min-height: 100vh;
+	padding-top: 10%;
+	background: url(../img/bg.jpg);
+	background-size: cover;
+	
+	h1 {
+		text-align: center;
+		text-transform: uppercase;
+		color: #fff;
+	}
+
+	a {
+		font-family: 'Roboto Condensed', 'Roboto' sans-serif;
+		font-weight: 700;
+		margin-top: 20%;
+		font-size: 1.2em;
+		padding: 1em;
+		text-transform: uppercase;
+	}
+	
+}
+
+.partners {
+	padding: 5% 0;
+	.partners__header {
+		text-transform: uppercase;
+		text-align: center;
+	}
+
+	ul {
+		display: block;
+		list-style: none;
+		margin: 0 auto;
+		li {
+			cursor: pointer;
+			margin: 3em;
+			display: inline-block;
+			width: 10em;
+			img {
+				width: 100%;
+				filter: grayscale(1);
+				-webkit-filter: grayscale(1);
+				transition: filter 0.3s ease-out;
+				-webkit-transition: -webkit-filter 0.3s ease-out;
+			}
+
+			&:hover img {
+				filter: grayscale(0);
+				-webkit-filter: grayscale(0);
+
+				transition: filter 0.3s ease-in;
+				-webkit-transition: -webkit-filter 0.3s ease-in;	
+			}
+		}
+	}
+}
+
+#failure {
+	margin-top: 2em;
+
+	a {
+		font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+		font-weight: 700;
+		display: inline-block;
+		margin-left: 1em;
+	}
+}
