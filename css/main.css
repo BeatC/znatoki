@@ -145,23 +145,24 @@ body {
   .test .test__description {
     margin-top: 2.5em;
     margin-bottom: 8em; }
+  .test .test__question-circle {
+    width: 150px;
+    height: 150px;
+    background-color: #00b74a;
+    border-radius: 75px;
+    text-align: center; }
   .test .test__progress .test__question__number {
     font-size: 5em;
     font-family: 'Lato', sans-serif;
     font-weight: 100;
+    color: #fff;
+    display: block;
     position: relative;
-    left: 40px;
-    bottom: 126px;
-    color: #fff; }
+    top: 19px; }
   .test p {
     font-size: 1.2em; }
     .test p span {
       font-weight: 700; }
-  .test svg {
-    width: 150px;
-    height: 150px;
-    display: block;
-    margin: 0 auto; }
 
 .location {
   font-family: 'Lato', sans-serif;
@@ -225,6 +226,7 @@ body {
   .partners ul {
     display: block;
     list-style: none;
+    width: 980px;
     margin: 0 auto; }
     .partners ul li {
       cursor: pointer;
@@ -242,6 +244,9 @@ body {
         -webkit-filter: grayscale(0);
         transition: filter 0.3s ease-in;
         -webkit-transition: -webkit-filter 0.3s ease-in; }
+
+#secret {
+  margin-top: 2em; }
 
 #failure {
   margin-top: 2em; }
