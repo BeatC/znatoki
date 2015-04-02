@@ -50,7 +50,7 @@ next = function(data) {
   if(data.secret) {
     updateFields(data);
     $('.signup__button').attr('href', data.text);
-    $("#secret").html("<p><strong>Секретный код:</strong> " + data.secret + "</p>");
+    $("#secret").html("<p><strong>Секретный код:</strong> " + data.secret + "</p><p>Перейти к регистрации: <a href='#signup'>Регистрация</a></p>");
     $("#secret").show(400);
   } else {
     if(data.questionNumber) {

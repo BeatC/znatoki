@@ -86,20 +86,20 @@
 					<div class="row">
 						<p><span>Вопрос <span class="number">1</span>:</span> <span class="question">Согласно шутке из Интернета, "в 1812 году Наполеон был еще не тот". Какую букву мы пропустили в предыдущем предложении?</span></p>
 					</div>
-					<div id="secret"></div>
 					<div class="row question__input">
 						<form onsubmit="return false;" class="form-inline col-md-offset-1">
 							<input type="text" required="required" class="form-control" id="answer" />	
 							<button id="next" class="btn btn-success">Дальше <span class="glyphicon glyphicon-chevron-right"></span> </button>
 						</form>
 					</div>
+					<div id="secret">
+					</div>
 					<div id="failure"></div>
 				</div>
 				<div class="test__progress col-md-2">
-					<svg class="test__progress__vector" width="150" height="150">
-						<circle cx="75" cy="75" r="75" fill="#00b74a"></circle>
-					</svg>
-					<span class="test__question__number"><span class="test__question__current" id="current">1</span>/<span class="test__question__all" id="total">5</span></span>
+					<div class="test__question-circle">
+						<span class="test__question__number"><span class="test__question__current" id="current">1</span>/<span class="test__question__all" id="total">5</span></span>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -143,27 +143,27 @@
 		</div>
 	</section>
 	<section class="signup" id="signup">
-		<h1 class="signup__header">Теперь осталось только зарегистрироваться!</h1>
-		<a href="http://goo.gl/forms/T4oIwhzjjm" class="btn btn-info col-md-2 col-md-offset-5 signup__button">Зарегистрироваться!</a>
+		<div class="row">
+			<h1 class="signup__header">Теперь осталось только зарегистрироваться!</h1>
+			<a href="http://goo.gl/forms/T4oIwhzjjm" class="btn btn-info col-md-2 col-md-offset-5 signup__button">Зарегистрироваться!</a>
+		</div>
 	</section>
 	<section class="partners" id="partners">
 		<h1 class="partners__header">Наши партнеры</h1>
-		<div class="col-md-10 col-md-offset-1">
-			<ul class="partners__list">
-				<li>
-					<img src="./img/partner0.jpg" alt="Квест комната 'Smart Room'">
-				</li>
-				<li>
-					<img src="./img/partner1.jpg" alt="Квест комната 'Следствие Суворова'">
-				</li>
-				<li>
-					<img src="./img/partner2.jpg" alt="Клуб скалолазания 'Format'">
-				</li>
-				<li>
-					<img src="./img/partner3.jpg" alt="S-Park">
-				</li>
+		<ul class="partners__list">
+			<li>
+				<img src="./img/partner0.jpg" alt="Квест комната 'Smart Room'">
+			</li>
+			<li>
+				<img src="./img/partner1.jpg" alt="Квест комната 'Следствие Суворова'">
+			</li>
+			<li>
+				<img src="./img/partner2.jpg" alt="Клуб скалолазания 'Format'">
+			</li>
+			<li>
+				<img src="./img/partner3.jpg" alt="S-Park">
+			</li>
 			</ul>
-		</div>
 	</section>
 	<script src="../vendor/jquery/dist/jquery.min.js"></script>
 	<script src="../vendor/jqueryui/jquery-ui.min.js"></script>

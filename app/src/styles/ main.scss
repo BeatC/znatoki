@@ -205,17 +205,25 @@ body {
 		margin-top: 2.5em;
 		margin-bottom: 8em;
 	}
+	
+	.test__question-circle {
+		width: 150px;
+		height: 150px;
+		background-color: #00b74a;
+		border-radius: 75px;
+		text-align: center;
+	}
 
 	.test__progress {
-
+		
 		.test__question__number {
 			font-size: 5em;
 			font-family: 'Lato', sans-serif;
 			font-weight: 100;
+			color: #fff;
+			display: block;
 			position: relative;
-  			left: 40px;
-  			bottom: 126px;
-  			color: #fff;
+			top: 19px;
 		}
 	}
 
@@ -227,12 +235,6 @@ body {
 		font-size: 1.2em;
 	}
 
-	svg {
-		width: 150px;
-		height: 150px;
-		display: block;
-		margin: 0 auto;
-	}
 }
 
 .location {
@@ -321,6 +323,7 @@ body {
 	ul {
 		display: block;
 		list-style: none;
+		width: 980px;
 		margin: 0 auto;
 		li {
 			cursor: pointer;
@@ -344,6 +347,10 @@ body {
 			}
 		}
 	}
+}
+
+#secret {
+	margin-top: 2em;
 }
 
 #failure {
